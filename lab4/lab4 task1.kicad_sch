@@ -303,6 +303,7 @@
     )
   )
 
+
   (junction (at 176.53 96.52) (diameter 0) (color 0 0 0 0)
     (uuid 4497c540-3909-47ab-8fc6-6919bef5149c)
   )
@@ -368,7 +369,7 @@
     (property "Value" "4.7 uF" (id 1) (at 180.34 83.4389 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (id 2) (at 175.5648 77.47 0)
+    (property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H5.0mm_P2.00mm" (id 2) (at 175.5648 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 176.53 81.28 0)
@@ -383,7 +384,7 @@
     (uuid 3b25597f-f863-4403-a315-59a02d230fd3)
     (property "Reference" "V1" (id 0) (at 132.715 76.2 0))
     (property "Value" "9 V" (id 1) (at 132.715 78.74 0))
-    (property "Footprint" "" (id 2) (at 132.08 81.28 0)
+    (property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" (id 2) (at 132.08 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 132.08 81.28 0)
@@ -402,7 +403,7 @@
     (property "Value" "20 k" (id 1) (at 203.2 73.6599 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (id 2) (at 202.438 72.39 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal" (id 2) (at 202.438 72.39 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 200.66 72.39 0)
@@ -417,7 +418,7 @@
     (uuid 745386e2-3331-4f89-a54f-4bcfc26ba747)
     (property "Reference" "R2" (id 0) (at 144.78 57.15 90))
     (property "Value" "2.2 k" (id 1) (at 144.78 59.69 90))
-    (property "Footprint" "" (id 2) (at 144.78 65.278 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal" (id 2) (at 144.78 65.278 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 144.78 63.5 0)
@@ -436,7 +437,7 @@
     (property "Value" "LED" (id 1) (at 204.47 95.5674 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (id 2) (at 200.66 92.71 0)
+    (property "Footprint" "LED_THT:LED_D5.0mm" (id 2) (at 200.66 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 200.66 92.71 0)
@@ -453,7 +454,7 @@
     (property "Value" "SW_SPDT" (id 1) (at 161.29 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "" (id 2) (at 161.29 63.5 0)
+    (property "Footprint" "Button_Switch_THT:SW_E-Switch_EG1224_SPDT_Angled" (id 2) (at 161.29 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 161.29 63.5 0)
@@ -470,22 +471,22 @@
 
   (symbol_instances
     (path "/05445e71-d142-4986-abcc-b54264f26993"
-      (reference "C1") (unit 1) (value "4.7 uF") (footprint "")
+      (reference "C1") (unit 1) (value "4.7 uF") (footprint "Capacitor_THT:C_Radial_D5.0mm_H5.0mm_P2.00mm")
     )
     (path "/9f259e6b-502f-44a7-8fb6-ff3cf471ed6b"
-      (reference "D1") (unit 1) (value "LED") (footprint "")
+      (reference "D1") (unit 1) (value "LED") (footprint "LED_THT:LED_D5.0mm")
     )
     (path "/4850d376-21a6-487b-bd9a-9ccb8010cfc7"
-      (reference "R1") (unit 1) (value "20 k") (footprint "")
+      (reference "R1") (unit 1) (value "20 k") (footprint "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal")
     )
     (path "/745386e2-3331-4f89-a54f-4bcfc26ba747"
-      (reference "R2") (unit 1) (value "2.2 k") (footprint "")
+      (reference "R2") (unit 1) (value "2.2 k") (footprint "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal")
     )
     (path "/9fd77c3c-fa7e-49d9-b11f-3aa1695a8b07"
-      (reference "SW1") (unit 1) (value "SW_SPDT") (footprint "")
+      (reference "SW1") (unit 1) (value "SW_SPDT") (footprint "Button_Switch_THT:SW_E-Switch_EG1224_SPDT_Angled")
     )
     (path "/3b25597f-f863-4403-a315-59a02d230fd3"
-      (reference "V1") (unit 1) (value "9 V") (footprint "")
+      (reference "V1") (unit 1) (value "9 V") (footprint "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical")
     )
   )
 )
